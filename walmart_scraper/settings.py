@@ -32,7 +32,7 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.retry.RetryMiddleware': None,
     
     ## Proxy Middleware
-    'walmart_scraper.middlewares.ScrapeOpsProxyMiddleware': 725,
+    'scrapeops_scrapy_proxy_sdk.scrapeops_scrapy_proxy_sdk.ScrapeOpsScrapyProxySdk': 725,
 }
 
 # Max Concurrency On ScrapeOps Proxy Free Plan is 1 thread
